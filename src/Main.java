@@ -5,10 +5,10 @@ public class Main {
 
     public static void main(String[] args) {
         AxisSystem axisSystem = new AxisSystem(); //this line displays the initial axis
-        //drawPoint1(axisSystem);
-        //drawPoint2(axisSystem);
-        //draw3Points(axisSystem);
-        //drawAmountOfRandomPoints();
+        drawPoint1(axisSystem);
+        drawPoint2(axisSystem);
+        draw3Points(axisSystem);
+        drawAmountOfRandomPoints(axisSystem);
         drawFunctionLine(axisSystem);
     }
 
